@@ -56,7 +56,8 @@ const startServer = () => {
     server.listen(port, () => {
       console.log(`Server has been started on http://localhost:${port}`);
     });
-  } catch (error) {
+  }
+  catch (error) {
     console.error(error);
   }
 };

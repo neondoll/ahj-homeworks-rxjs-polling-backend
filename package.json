@@ -1,0 +1,35 @@
+{
+  "name": "ahj-homeworks-rxjs-polling-backend",
+  "version": "1.0.0",
+  "description": "Homework: https://github.com/netology-code/ahj-homeworks/tree/AHJ-50/rxjs#polling",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/neondoll/ahj-homeworks-rxjs-polling-backend.git"
+  },
+  "author": "neondoll",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neondoll/ahj-homeworks-rxjs-polling-backend/issues"
+  },
+  "homepage": "https://github.com/neondoll/ahj-homeworks-rxjs-polling-backend#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@faker-js/faker": "^8.4.1",
+    "@stylistic/eslint-plugin": "^2.6.1",
+    "eslint": "^9.8.0",
+    "globals": "^15.9.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "forever": "^4.0.3"
+  }
+}
